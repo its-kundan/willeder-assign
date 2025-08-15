@@ -1,0 +1,31 @@
+{
+  "info": {
+    "name": "Willeder Frontend Developer Application",
+    "description": "Submit your job application to Willeder",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Submit Application",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n   \"agreeOnTakeTest\": true,\n   \"name\": \"Kundan Kumar\",\n   \"email\": \"kundan51kk@gmail.com\",\n   \"yearOfExperience\": 0,\n   \"rateOptimization\": 4,\n   \"github\": \"https://github.com/its-kundan\",\n   \"linkedin\": \"https://www.linkedin.com/in/its-kundan\",\n   \"phone\": \"+91 7667886894\",\n   \"techstack\": [\n      \"JavaScript\",\n      \"TypeScript\",\n      \"React.js\",\n      \"Next.js\",\n      \"Tailwind CSS\",\n      \"Node.js\",\n      \"Express.js\",\n      \"PostgreSQL\",\n      \"MongoDB\"\n   ],\n   \"relocatable\": true,\n   \"goal\": \"To build impactful tech products that reach millions of users\",\n   \"achievement\": \"Developed multiple full-stack projects including LMS, Job Portal, and Real-time Chat App\",\n   \"why\": \"Because Willeder's vision of empowering determined individuals aligns with my own drive for continuous growth and meaningful contribution\",\n   \"reason\": \"Looking for a challenging and growth-oriented environment with impactful projects\",\n   \"currentSalary\": 9,\n   \"expectedSalary\": 12,\n   \"noticePeriod\": 15,\n   \"react\": 2,\n   \"typescript\": 1,\n   \"next\": 1,\n   \"sass\": 1,\n   \"figma\": 1,\n   \"semanticHtml\": 2,\n   \"storybook\": 0,\n   \"seo\": 1,\n   \"lottie\": 1,\n   \"mobileDevelopment\": 1,\n   \"express\": 1,\n   \"swagger\": 0\n}"
+        },
+        "url": {
+          "raw": "https://asia-northeast1-willeder-official.cloudfunctions.net/api/apply/frontend",
+          "protocol": "https",
+          "host": ["asia-northeast1-willeder-official", "cloudfunctions", "net"],
+          "path": ["api", "apply", "frontend"]
+        }
+      }
+    }
+  ]
+}
