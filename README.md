@@ -2,37 +2,44 @@
 
 A modern, responsive web application for applying to the Frontend Developer position at Willeder. Built with React, TypeScript, and Tailwind CSS.
 
+## 🌐 Live Application
+
+**🔗 Live Demo:** [https://willeder-assign-nine.vercel.app/](https://willeder-assign-nine.vercel.app/)
+
+**📁 GitHub Repository:** [https://github.com/its-kundan/willeder-assign](https://github.com/its-kundan/willeder-assign)
+
 ## 🚀 Features
 
-- **Multi-step Application Form**: Organized into 3 intuitive steps
-- **Modern UI/UX**: Beautiful, responsive design with smooth animations
-- **Form Validation**: Comprehensive client-side validation
-- **Real-time Feedback**: Toast notifications for user actions
-- **Experience Sliders**: Interactive sliders for rating technology experience
-- **Dynamic Tech Stack**: Add/remove technologies with ease
-- **API Integration**: Direct submission to Willeder's application endpoint
+* **Multi-step Application Form**: Organized into 3 intuitive steps
+* **Modern UI/UX**: Beautiful, responsive design with smooth animations
+* **Form Validation**: Comprehensive client-side validation
+* **Real-time Feedback**: Toast notifications for user actions
+* **Experience Sliders**: Interactive sliders for rating technology experience
+* **Dynamic Tech Stack**: Add/remove technologies with ease
+* **API Integration**: Direct submission to Willeder's application endpoint
+* **Production Ready**: Successfully deployed on Vercel
 
 ## 🛠️ Tech Stack
 
-- **React 18** - Modern React with hooks
-- **TypeScript** - Type-safe development
-- **Tailwind CSS** - Utility-first CSS framework
-- **React Hook Form** - Performant form handling
-- **React Hot Toast** - Beautiful toast notifications
-- **Lucide React** - Beautiful icons
-- **Axios** - HTTP client for API calls
+* **React 18** - Modern React with hooks
+* **TypeScript** - Type-safe development
+* **Tailwind CSS** - Utility-first CSS framework
+* **React Hook Form** - Performant form handling
+* **React Hot Toast** - Beautiful toast notifications
+* **Lucide React** - Beautiful icons
+* **Axios** - HTTP client for API calls
 
 ## 📋 Prerequisites
 
-- Node.js (version 16 or higher)
-- npm or yarn package manager
+* Node.js (version 16 or higher)
+* npm or yarn package manager
 
 ## 🚀 Getting Started
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd willeder-job-application
+   git clone https://github.com/its-kundan/willeder-assign.git
+   cd willeder-assign
    ```
 
 2. **Install dependencies**
@@ -72,61 +79,83 @@ src/
 The application form includes all required fields as specified in the job description:
 
 ### Personal Information
-- Full Name
-- Email Address
-- Phone Number
-- Years of Professional Experience
-- GitHub Profile
-- LinkedIn Profile
-- Tech Stack (optional)
-- Relocation willingness
-- Take-home task agreement
+
+* Full Name
+* Email Address
+* Phone Number
+* Years of Professional Experience
+* GitHub Profile
+* LinkedIn Profile
+* Tech Stack (optional)
+* Relocation willingness
+* Take-home task agreement
 
 ### Experience & Skills
-- Performance & Optimization Rating
-- Technology experience sliders for:
-  - React, TypeScript, Next.js
-  - Sass, Figma, Semantic HTML
-  - Storybook, SEO, Lottie
-  - Mobile Development, Express.js, Swagger
+
+* Performance & Optimization Rating
+* Technology experience sliders for:  
+   * React, TypeScript, Next.js  
+   * Sass, Figma, Semantic HTML  
+   * Storybook, SEO, Lottie  
+   * Mobile Development, Express.js, Swagger
 
 ### Career & Motivation
-- Lifetime Goal
-- Achievement goals with Willeder
-- Why Willeder
-- Reason for job change
-- Current Salary (LPA)
-- Expected Salary (LPA)
-- Notice Period (Days)
+
+* Lifetime Goal
+* Achievement goals with Willeder
+* Why Willeder
+* Reason for job change
+* Current Salary (LPA)
+* Expected Salary (LPA)
+* Notice Period (Days)
 
 ## 🌐 API Integration
 
 The application submits data to:
+
 ```
 https://asia-northeast1-willeder-official.cloudfunctions.net/api/apply/frontend
 ```
 
 ## 🎨 Design Features
 
-- **Responsive Design**: Works perfectly on desktop, tablet, and mobile
-- **Step-by-step Navigation**: Clear progress indication
-- **Form Validation**: Real-time validation with helpful error messages
-- **Loading States**: Smooth loading animations during submission
-- **Success Feedback**: Clear confirmation when application is submitted
-- **Accessibility**: WCAG compliant with proper ARIA labels
+* **Responsive Design**: Works perfectly on desktop, tablet, and mobile
+* **Step-by-step Navigation**: Clear progress indication
+* **Form Validation**: Real-time validation with helpful error messages
+* **Loading States**: Smooth loading animations during submission
+* **Success Feedback**: Clear confirmation when application is submitted
+* **Accessibility**: WCAG compliant with proper ARIA labels
+* **Willeder Branding**: Incorporates company values and design principles
 
 ## 🚀 Deployment
 
+### ✅ Production Deployment
+
+The application is successfully deployed on **Vercel**:
+- **Live URL:** [https://willeder-assign-nine.vercel.app/](https://willeder-assign-nine.vercel.app/)
+- **Build Status:** ✅ Successful
+- **Performance:** Optimized for production
+
 ### Build for Production
+
 ```bash
 npm run build
 ```
 
-### Deploy to Netlify/Vercel
-1. Connect your repository to Netlify or Vercel
+### Deploy to Vercel
+
+1. Connect your repository to Vercel
 2. Set build command: `npm run build`
 3. Set publish directory: `build`
 4. Deploy!
+
+## 📊 Project Statistics
+
+* **TypeScript:** 84.0%
+* **CSS:** 8.7%
+* **Shell:** 3.5%
+* **HTML:** 2.1%
+* **JavaScript:** 1.7%
 
 ## 🤝 Contributing
 
@@ -145,16 +174,24 @@ This project is created for the Willeder Frontend Developer application process.
 Willeder represents individuals with strong determination, combining "willed" with the suffix "-er" meaning "one who." The company aims to be the partner of choice for business startups and IT-related problem solving, maximizing business results through their work.
 
 **Values:**
-- Action-oriented
-- Accountability
-- Leadership
-- Efficiency
-- Diversity
-- Proactiveness
-- Social contribution
-- External perspective
-- Curiosity
+
+* Action-oriented
+* Accountability
+* Leadership
+* Efficiency
+* Diversity
+* Proactiveness
+* Social contribution
+* External perspective
+* Curiosity
 
 ---
 
-*"Where your Dreams Soar!"* 🚀
+_"Where your Dreams Soar!"_ 🚀
+
+## 📞 Contact
+
+* **Developer:** Kundan Kumar
+* **Email:** kundan51kk@gmail.com
+* **GitHub:** [@its-kundan](https://github.com/its-kundan)
+* **LinkedIn:** [its-kundan](https://www.linkedin.com/in/its-kundan)
