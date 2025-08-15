@@ -22,16 +22,16 @@ const Header: React.FC = () => {
                 <div className="absolute inset-0 w-12 h-12 border-2 border-white/20 rounded-full animate-spin" style={{ animationDirection: 'reverse', animationDuration: '3s' }}></div>
               </div>
             </div>
-            <h1 className="text-5xl font-bold mb-3 gradient-text">
+            <h1 className="text-5xl font-bold mb-3 gradient-text drop-shadow-lg">
               Willeder
             </h1>
-            <p className="text-xl text-primary-100 font-medium">Where your Dreams Soar!</p>
-            <p className="text-primary-200 mt-2">Individuals with strong determination and resolve</p>
+            <p className="text-xl text-white font-medium drop-shadow-sm">Where your Dreams Soar!</p>
+            <p className="text-white/90 mt-2 drop-shadow-sm">Individuals with strong determination and resolve</p>
           </div>
 
           {/* Company Mission */}
           <div className="max-w-3xl mx-auto mb-12">
-            <p className="text-lg text-primary-100 leading-relaxed">
+            <p className="text-lg text-white/95 leading-relaxed drop-shadow-sm">
               We aim to be the partner of choice for business startups and IT-related problem solving, 
               and to be the company that maximizes business results through our work.
             </p>
@@ -39,44 +39,44 @@ const Header: React.FC = () => {
 
           {/* Core Values Grid */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
-            <div className="flex flex-col items-center space-y-2 p-4 bg-white/10 rounded-lg backdrop-blur-sm border border-white/20">
-              <Users className="w-6 h-6 text-primary-200" />
-              <span className="text-sm text-primary-100 font-medium text-center">Action-oriented</span>
+            <div className="flex flex-col items-center space-y-2 p-4 bg-white/15 rounded-lg backdrop-blur-sm border border-white/25 hover:bg-white/20 transition-colors">
+              <Users className="w-6 h-6 text-white" />
+              <span className="text-sm text-white font-medium text-center">Action-oriented</span>
             </div>
-            <div className="flex flex-col items-center space-y-2 p-4 bg-white/10 rounded-lg backdrop-blur-sm border border-white/20">
-              <Shield className="w-6 h-6 text-primary-200" />
-              <span className="text-sm text-primary-100 font-medium text-center">Accountability</span>
+            <div className="flex flex-col items-center space-y-2 p-4 bg-white/15 rounded-lg backdrop-blur-sm border border-white/25 hover:bg-white/20 transition-colors">
+              <Shield className="w-6 h-6 text-white" />
+              <span className="text-sm text-white font-medium text-center">Accountability</span>
             </div>
-            <div className="flex flex-col items-center space-y-2 p-4 bg-white/10 rounded-lg backdrop-blur-sm border border-white/20">
-              <Target className="w-6 h-6 text-primary-200" />
-              <span className="text-sm text-primary-100 font-medium text-center">Leadership</span>
+            <div className="flex flex-col items-center space-y-2 p-4 bg-white/15 rounded-lg backdrop-blur-sm border border-white/25 hover:bg-white/20 transition-colors">
+              <Target className="w-6 h-6 text-white" />
+              <span className="text-sm text-white font-medium text-center">Leadership</span>
             </div>
-            <div className="flex flex-col items-center space-y-2 p-4 bg-white/10 rounded-lg backdrop-blur-sm border border-white/20">
-              <TrendingUp className="w-6 h-6 text-primary-200" />
-              <span className="text-sm text-primary-100 font-medium text-center">Efficiency</span>
+            <div className="flex flex-col items-center space-y-2 p-4 bg-white/15 rounded-lg backdrop-blur-sm border border-white/25 hover:bg-white/20 transition-colors">
+              <TrendingUp className="w-6 h-6 text-white" />
+              <span className="text-sm text-white font-medium text-center">Efficiency</span>
             </div>
-            <div className="flex flex-col items-center space-y-2 p-4 bg-white/10 rounded-lg backdrop-blur-sm border border-white/20">
-              <Globe className="w-6 h-6 text-primary-200" />
-              <span className="text-sm text-primary-100 font-medium text-center">Diversity</span>
+            <div className="flex flex-col items-center space-y-2 p-4 bg-white/15 rounded-lg backdrop-blur-sm border border-white/25 hover:bg-white/20 transition-colors">
+              <Globe className="w-6 h-6 text-white" />
+              <span className="text-sm text-white font-medium text-center">Diversity</span>
             </div>
-            <div className="flex flex-col items-center space-y-2 p-4 bg-white/10 rounded-lg backdrop-blur-sm border border-white/20">
-              <Lightbulb className="w-6 h-6 text-primary-200" />
-              <span className="text-sm text-primary-100 font-medium text-center">Proactiveness</span>
+            <div className="flex flex-col items-center space-y-2 p-4 bg-white/15 rounded-lg backdrop-blur-sm border border-white/25 hover:bg-white/20 transition-colors">
+              <Lightbulb className="w-6 h-6 text-white" />
+              <span className="text-sm text-white font-medium text-center">Proactiveness</span>
             </div>
-            <div className="flex flex-col items-center space-y-2 p-4 bg-white/10 rounded-lg backdrop-blur-sm border border-white/20">
-              <Heart className="w-6 h-6 text-primary-200" />
-              <span className="text-sm text-primary-100 font-medium text-center">Social contribution</span>
+            <div className="flex flex-col items-center space-y-2 p-4 bg-white/15 rounded-lg backdrop-blur-sm border border-white/25 hover:bg-white/20 transition-colors">
+              <Heart className="w-6 h-6 text-white" />
+              <span className="text-sm text-white font-medium text-center">Social contribution</span>
             </div>
-            <div className="flex flex-col items-center space-y-2 p-4 bg-white/10 rounded-lg backdrop-blur-sm border border-white/20">
-              <Star className="w-6 h-6 text-primary-200" />
-              <span className="text-sm text-primary-100 font-medium text-center">Curiosity</span>
+            <div className="flex flex-col items-center space-y-2 p-4 bg-white/15 rounded-lg backdrop-blur-sm border border-white/25 hover:bg-white/20 transition-colors">
+              <Star className="w-6 h-6 text-white" />
+              <span className="text-sm text-white font-medium text-center">Curiosity</span>
             </div>
           </div>
 
           {/* Job Title */}
           <div className="mt-12">
-            <h2 className="text-4xl font-bold mb-4">Frontend Developer</h2>
-            <p className="text-xl text-primary-100 max-w-2xl mx-auto">
+            <h2 className="text-4xl font-bold mb-4 text-white drop-shadow-lg">Frontend Developer</h2>
+            <p className="text-xl text-white/95 max-w-2xl mx-auto drop-shadow-sm">
               Join our whirlwind of innovation and help us create amazing digital experiences 
               that energize society as a whole
             </p>

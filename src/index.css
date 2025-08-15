@@ -105,12 +105,13 @@
   }
 
   .gradient-text {
-    background: linear-gradient(-45deg, #3b82f6, #1d4ed8, #1e40af, #3b82f6);
+    background: linear-gradient(-45deg, #ffffff, #f8fafc, #e2e8f0, #ffffff);
     background-size: 400% 400%;
     animation: gradient-shift 3s ease infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
   /* Floating animation for cards */
